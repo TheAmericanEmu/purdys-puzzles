@@ -19,5 +19,6 @@ for code_leter in coded:
     newString=newString+alp[(alp_spot-1)+key]
   if alp_spot==None:
     newString=newString+coded_letter
-    
+
+print(newString)
     
