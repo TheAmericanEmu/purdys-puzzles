@@ -6,7 +6,7 @@ def grab_letter(letter:str)-> int:
   if letter == "/" or letter == "." or letter ==":":
     return None
   for char in alp:
-    if letter = char:
+    if letter == char:
       return count
     count+=1
     
