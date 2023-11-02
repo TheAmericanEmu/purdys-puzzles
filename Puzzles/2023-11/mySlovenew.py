@@ -1,98 +1,29 @@
-Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
+code = "jyyqd://yomuita.vpz/4bcs5jle"
+qwerty_dic = {}
+num_to_qarty = {}
 
-= RESTART: C:\Users\Certiport\Downloads\mySlove.py
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-[':']
-Done
+def make_dics():
+    keybroad ="qwertyuiopasdfghjklzxcvbnm"
+    for i in range(len(keybroad)):
+        char = keybroad[i]
+        qwerty_dic.update({char:i})
+    keybroad ="qwertyuiopasdfghjklzxcvbnm"
+    for i in range(len(keybroad)):
+        char = keybroad[i]
+        num_to_qarty.update({i:char})
 
-=============== RESTART: C:\Users\Certiport\Downloads\mySlove.py ===============
-1
-2
-3
-4
-5
-1
-2
-3
-4
-5
-1
-2
-3
-4
-5
-1
-2
-3
-4
-5
-1
-2
-3
-4
-5
-1
-2
-3
-['d', 'o', 'a', '/', '5']
-Done
->>> 
-=============== RESTART: C:\Users\Certiport\Downloads\mySlove.py ===============
-1
-2
-3
-4
-5
-1
-2
-3
-4
-5
-1
-2
-3
-4
-5
-1
-2
-3
-4
-5
-1
-2
-3
-4
-5
-1
-2
-3
-['jyyqd', '://yo', 'muita', '.vpz/', '4bcs5']
-Done
+make_dics()
+
+new_url =[]
+for char in code:
+    if char.isalpha()==True:
+        key = qwerty_dic[char]
+        if key-1 <0:
+            key =0
+        else:
+            key-=1
+        new_url.append(num_to_qarty[key])
+    else:
+        new_url.append(char)
+
+print("".join(new_url))
