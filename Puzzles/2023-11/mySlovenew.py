@@ -2,9 +2,9 @@ code = ""
 qwerty_dic = {}
 num_to_qarty = {}
 
-with open("C:\\Users\\Owner\\Documents\\GitHub\\purdys-puzzles\\Puzzles\\2023-11\\almostthere.txt") as file:
+with open("Puzzles\\2023-11\\almostthere.txt") as file:
     for line in file:
-        code=" "+code+line.strip()
+        code=" "+code+line.strip()+" "
 def make_dics():
     keybroad ="qwertyuiopasdfghjklzxcvbnm"
     for i in range(len(keybroad)):
@@ -30,7 +30,7 @@ for char in code:
             letter="m"
         elif num_to_qarty[key] == "p" and num_to_qarty[key+1] == "a":
             letter = "l"
-        elif num_to_qarty[key+1] == "w" and key == "q":
+        elif num_to_qarty[key+1] == "w" and num_to_qarty[key+1-1] == "q":
             letter = "p"
         if letter == None:
             letter = num_to_qarty[key]
