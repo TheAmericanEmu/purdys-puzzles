@@ -2,9 +2,9 @@ code = ""
 qwerty_dic = {}
 num_to_qarty = {}
 
-with open("C:\\Users\\Certiport\\Downloads\\thing.txt") as file:
+with open("C:\\Users\\Owner\\Documents\\GitHub\\purdys-puzzles\\Puzzles\\2023-11\\almostthere.txt") as file:
     for line in file:
-        code=code+line.strip()
+        code=" "+code+line.strip()
 def make_dics():
     keybroad ="qwertyuiopasdfghjklzxcvbnm"
     for i in range(len(keybroad)):
@@ -20,7 +20,7 @@ make_dics()
 new_url =[]
 for char in code:
     if char.isalpha()==True:
-        key = qwerty_dic[char]
+        key = qwerty_dic[char.lower()]
         if key-1 <0:
             key =0
         else:
@@ -30,7 +30,7 @@ for char in code:
             letter="m"
         elif num_to_qarty[key] == "p" and num_to_qarty[key+1] == "a":
             letter = "l"
-        elif num_to_qarty[key+1] == "q":
+        elif num_to_qarty[key+1] == "w" and key == "q":
             letter = "p"
         if letter == None:
             letter = num_to_qarty[key]
