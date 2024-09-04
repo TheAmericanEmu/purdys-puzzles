@@ -2,34 +2,62 @@
 
 This is a collection of the monthly puzzles that I put up on the chalk board outside of my classroom.  The puzzles are sorted by month.  Some solutions will be provided *after* the month in which the puzzle was posted has ended.
 
-## 2023 - 2024 Monthly Puzzles
-* [November 2023](./Puzzles/2023-11/README.md)
-* [October 2023](./Puzzles/2023-10/README.md) - 188
-* [September 2023](./Puzzles/2023-09/README.md) - 747
-* [August 2023](./Puzzles/2023-08/README.md) - tattarrattat
+## 2024 - 2025 Monthly Puzzles
+* [September 2024](./Puzzles/2024-09/README.md)
+* [August 2024](./Puzzles/2024-08/README.md) - 502
 
 ## What to do
 When you think you have a solution, please e-mail me (cpurdy@flourbluffschools.net) or bring me (room 115) the solution along with an explanation of what you did to get that solution.  Please attach or link any program(s) you may have written to solve the problem.
 
-## Monthly Solvers 2022-2023
+## Monthly Solvers 2024-2025
 
-|     Name         		 | 8/23  | 9/23  | 10/23 | 11/23 | 1/24  | 2/24  | 3/24  | 4/24  | 5/24 |
+|     Name         		 | 8/24  | 9/24  | 10/24 | 11/24 | 1/25  | 2/25  | 3/25  | 4/25  | 5/25  |
 |:--               		 |:-:    |:-:    |:-:    |:-:    | :-:   |:-:    |:-:    |  :-:  | :-:   |
-| CJ Avalos              |       | X*    |       |       |       |       |       |       |       |
-| Nya Davis              |       | X*    |       |       |       |       |       |       |       |
-| Colin Harrington-Ding  |       |       |  X*   |  X    |       |       |       |       |       |
-| Connor Murphy          |       |       |  X*   |  X    |       |       |       |       |       |
-| Xander Nguyen          | X*    | X*    |  X    |       |       |       |       |       |       |
-| Nathaniel Puumala      | X*    | X*    |  X*   |  X    |       |       |       |       |       |
-| Quintin Smith          |       | X*    |       |       |       |       |       |       |       |
-| Lorenzo Viray          | X*    |       |       |       |       |       |       |       |       |
-| Mason Wendel           | X*    | X*    |  X*   |  X    |       |       |       |       |       |
-| Alex Xie               | X*    | X*    |  X    |       |       |       |       |       |       |
-| Samuel Zhang           | X*    | X*    |       |       |       |       |       |       |       |
-
+| Luke Davis             | X     |       |       |       |       |       |       |       |       |
+| Joey Liu               | X     |       |       |       |       |       |       |       |       |
+| Nathaniel Puumala      | X     |       |       |       |       |       |       |       |       |
+| Caroline Sharp         | X*    |       |       |       |       |       |       |       |       |
 
 ---
 ## Past Years' Puzzles
+
+
+## 2023 - 2024 Monthly Puzzles
+
+* [May 2024](./Puzzles/2024-05/README.md)
+* [April 2024](./Puzzles/2024-04/README.md) - 68
+* [March 2024](./Puzzles/2024-03/README.md) - 13
+* [February 2024](./Puzzles/2024-02/README.md) - 854
+* [January 2024](./Puzzles/2024-01/README.md) - 24
+* [December 2023](./Puzzles/2023-12/README.md) N/A
+* [November 2023](./Puzzles/2023-11/README.md) - "on their feet"
+* [October 2023](./Puzzles/2023-10/README.md) - 188
+* [September 2023](./Puzzles/2023-09/README.md) - 747
+* [August 2023](./Puzzles/2023-08/README.md) - tattarrattat
+
+
+
+## Monthly Solvers 2023-2024
+
+|     Name         		 | 8/23  | 9/23  | 10/23 | 11/23 | 1/24  | 2/24  | 3/24  | 4/24  | 5/24  |
+|:--               		 |:-:    |:-:    |:-:    |:-:    | :-:   |:-:    |:-:    |  :-:  | :-:   |
+| CJ Avalos              |       | X*    |       |       |       |       |       |       |       |
+| Jared Baldwin          |       |       |       |       |  X*   |       | X*    |       |       |
+| Jeffery Cutshall       |       |       |       |       |       |       |       |  X*   |       |
+| Nya Davis              |       | X*    |       |       |       |       |       |       |       |
+| Colin Harrington-Ding  |       |       |  X*   |  X*   |       |       |       |       |       |
+| Connor Murphy          |       |       |  X*   |  X*   |  X*   |  X*   | X*    |  X*   |       |
+| Xander Nguyen          | X*    | X*    |  X*   |  X*   |  X*   |  X*   | X*    |  X*   |       |
+| Nathaniel Puumala      | X*    | X*    |  X*   |  X*   |  X*   |  X*   | X*    |  X*   |       |
+| Quintin Smith          |       | X*    |       |  X*   |       |       |       |       |       |
+| Lorenzo Viray          | X*    |       |       |  X*   |       |       |       |       |       |
+| Mason Wendel           | X*    | X*    |  X*   |  X*   |  X*   |  X*   |       |       |       |
+| Alex Xie               | X*    | X*    |  X*   |  X*   |       |       |       |       |       |
+| Kyle Xu                |       |       |       |  X*   |  X*   |       |       |       |       |
+| Samuel Zhang           | X*    | X*    |       |       |       |       |       |       |       |
+
+
+
 
 ## 2022 - 2023 Monthly Puzzles
 * [May 2023](./Puzzles/2023-05/README.md) - 88
