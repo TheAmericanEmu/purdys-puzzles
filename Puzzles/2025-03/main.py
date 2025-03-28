@@ -115,7 +115,13 @@ with open("input.txt",mode="r") as file:
     pi_dict={}
     count=0
     for num in pi_str:
-        pi_dict[alp[count]]=int(num)
+        letter_to_replace=place_in_alp(alp[count])-3
+        print(letter_to_replace)
+        if(letter_to_replace<0):
+            letter_to_replace=len(alp)-abs(letter_to_replace)
+        elif(letter_to_replace>len(alp)):
+            letter_to_replace=abs(letter_to_replace)-len(alp)
+        pi_dict[alp[count]]=alp[letter_to_replace]
         count+=1
     print(pi_dict)
     output=[]
@@ -126,6 +132,6 @@ with open("input.txt",mode="r") as file:
     output.remove("?")
     output.remove("\x00")
     for num in output:
-        number = abs(place_in_alp(num.lower())-pi_dict.get(num.lower()))
-        text_output+=alp[number]
+        number = pi_dict.get(num.lower())
+        print(number)
     print(text_output)
