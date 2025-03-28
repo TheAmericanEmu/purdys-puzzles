@@ -1,5 +1,33 @@
 import string
 import math
+alp=string.ascii_lowercase
+alp=alp.replace(""," ")
+alp=alp.split(" ")
+alp.remove("")
+alp.remove("")
+def place_in_alp(letter:str):
+
+    for i in range(len(alp)):
+        if(alp[i]==letter.lower()):
+            return i
+    return 0
+
+import math
+
+def decode_pi_cipher(cipher_text, pi_digits):
+    plain_text = ""
+    cipher_index = 0
+    
+    for digit in pi_digits:
+        if cipher_index < len(cipher_text):
+            plain_text += cipher_text[cipher_index]
+            cipher_index += int(digit)
+        else:
+            break
+            
+    return plain_text
+
+
 
 def base3_to_ascii(base3_string):
   """Converts a base-3 string to its ASCII equivalent."""
@@ -70,20 +98,21 @@ def base3_to_txt(file):
 
 with open("input.txt",mode="r") as file:
     nextClue = base3_to_txt(file)
+    print(nextClue)
     nextClue=nextClue.split("!")
+    firstHalf=nextClue[0]
     nextClue=nextClue[1].split()
     nextClue=nextClue[0]
-    
     pi = math.pi
     base3= ascii_to_base3(nextClue).split(" ")
     base3.remove("")
-    print(base3)
     output=[]
     for num in base3:
-        num=int(num,3)
-        num/=pi
-        output.append(num)
+        output.append(chr(int(num,3)))
     text_output=""
     for num in output:
-        text_output+=chr(int(num))
+        text_output+=num
     print(text_output)
+    pi_string = "31415926535897932384626433832795028841971"
+    decoded_message = decode_pi_cipher(text_output, pi_string)
+    print(decoded_message)
