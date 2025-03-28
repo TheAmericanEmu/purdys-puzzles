@@ -8,3 +8,5 @@
 2200 11012 11020 11111 11101 10222 11001 11012 10202 11001 
 11102 10221 11011 10122 10201 10202 10200 11112 2100 
 ```
+
+Clue one ```Don'tforgettoeatyourpi!KpapqmyuzoiIuinuvHqryvkmqemwjpbdecz?```
