@@ -1,3 +1,4 @@
+
 import string
 import math
 alp=string.ascii_lowercase
@@ -96,6 +97,7 @@ def base3_to_txt(file):
     
     return output
 
+
 with open("input.txt",mode="r") as file:
     nextClue = base3_to_txt(file)
     print(nextClue)
@@ -103,16 +105,27 @@ with open("input.txt",mode="r") as file:
     firstHalf=nextClue[0]
     nextClue=nextClue[1].split()
     nextClue=nextClue[0]
-    pi = math.pi
+    pi = "31415926535897932384626433"
     base3= ascii_to_base3(nextClue).split(" ")
     base3.remove("")
+    
+    pi_str=pi.replace(""," ").split(" ")
+    pi_str.remove("")
+    pi_str.remove("")
+    pi_dict={}
+    count=0
+    for num in pi_str:
+        pi_dict[alp[count]]=int(num)
+        count+=1
+    print(pi_dict)
     output=[]
+   
     for num in base3:
         output.append(chr(int(num,3)))
     text_output=""
+    output.remove("?")
+    output.remove("\x00")
     for num in output:
-        text_output+=num
+        number = abs(place_in_alp(num.lower())-pi_dict.get(num.lower()))
+        text_output+=alp[number]
     print(text_output)
-    pi_string = "31415926535897932384626433832795028841971"
-    decoded_message = decode_pi_cipher(text_output, pi_string)
-    print(decoded_message)
