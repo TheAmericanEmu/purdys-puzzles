@@ -115,7 +115,7 @@ with open("input.txt",mode="r") as file:
     pi_dict={}
     count=0
     for num in pi_str:
-        letter_to_replace=place_in_alp(alp[count])-3
+        letter_to_replace=place_in_alp(alp[count])-int(num)
         print(letter_to_replace)
         if(letter_to_replace<0):
             letter_to_replace=len(alp)-abs(letter_to_replace)
@@ -128,10 +128,10 @@ with open("input.txt",mode="r") as file:
    
     for num in base3:
         output.append(chr(int(num,3)))
-    text_output=""
+    text_output=[]
     output.remove("?")
     output.remove("\x00")
     for num in output:
         number = pi_dict.get(num.lower())
-        print(number)
+        text_output.append(number)
     print(text_output)
